@@ -85,9 +85,6 @@ def run_etl_process():
     print(f"File uploaded successfully to {bucket_name} as {file_key}")
 
 
-# def run_etl_process():
-#     verdemar_etl.run_etl_process()
-
 default_args = {
     'owner': 'Alexandre Piterman',
     'start_date': datetime(2024, 4, 14),
