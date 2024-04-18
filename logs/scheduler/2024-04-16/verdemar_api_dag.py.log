@@ -1,0 +1,462 @@
+[2024-04-16T19:56:13.814+0000] {processor.py:161} INFO - Started process (PID=30) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:56:13.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T19:56:13.816+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:56:13.816+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:56:16.212+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:56:16.504+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:56:16.503+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T19:56:16.520+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:56:16.520+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-15 00:00:00+00:00, run_after=2024-04-16 00:00:00+00:00
+[2024-04-16T19:56:16.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 2.824 seconds
+[2024-04-16T19:56:47.088+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:56:47.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T19:56:47.095+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:56:47.093+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:56:47.807+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:56:47.822+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:56:47.822+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T19:56:47.834+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:56:47.833+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T19:56:47.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.799 seconds
+[2024-04-16T19:57:18.268+0000] {processor.py:161} INFO - Started process (PID=45) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:57:18.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T19:57:18.273+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:57:18.273+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:57:18.908+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:57:18.935+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:57:18.935+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T19:57:18.953+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:57:18.953+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T19:57:18.960+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.701 seconds
+[2024-04-16T19:57:49.224+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:57:49.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T19:57:49.229+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:57:49.229+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:57:49.763+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:57:49.775+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:57:49.775+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T19:57:49.785+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:57:49.785+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T19:57:49.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.580 seconds
+[2024-04-16T19:58:20.104+0000] {processor.py:161} INFO - Started process (PID=61) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:58:20.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T19:58:20.109+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:58:20.108+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:58:20.622+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:58:20.640+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:58:20.640+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T19:58:20.650+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:58:20.650+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T19:58:20.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.570 seconds
+[2024-04-16T19:58:50.980+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:58:50.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T19:58:51.007+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:58:51.001+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:58:51.480+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:58:51.500+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:58:51.499+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T19:58:51.512+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:58:51.512+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T19:58:51.520+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.547 seconds
+[2024-04-16T19:59:21.801+0000] {processor.py:161} INFO - Started process (PID=77) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:59:21.803+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T19:59:21.811+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:59:21.809+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:59:22.332+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:59:22.346+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:59:22.346+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T19:59:22.356+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:59:22.356+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T19:59:22.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.573 seconds
+[2024-04-16T19:59:52.730+0000] {processor.py:161} INFO - Started process (PID=85) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:59:52.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T19:59:52.742+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:59:52.741+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:59:53.172+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T19:59:53.183+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:59:53.182+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T19:59:53.192+0000] {logging_mixin.py:188} INFO - [2024-04-16T19:59:53.192+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T19:59:53.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.482 seconds
+[2024-04-16T20:00:23.324+0000] {processor.py:161} INFO - Started process (PID=93) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:00:23.326+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:00:23.335+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:00:23.334+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:00:23.774+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:00:23.788+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:00:23.788+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:00:23.798+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:00:23.798+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:00:23.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.489 seconds
+[2024-04-16T20:00:54.082+0000] {processor.py:161} INFO - Started process (PID=101) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:00:54.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:00:54.086+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:00:54.086+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:00:54.470+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:00:54.484+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:00:54.484+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:00:54.494+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:00:54.494+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:00:54.501+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.427 seconds
+[2024-04-16T20:01:24.846+0000] {processor.py:161} INFO - Started process (PID=109) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:01:24.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:01:24.853+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:01:24.852+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:01:25.655+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:01:25.680+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:01:25.679+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:01:25.695+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:01:25.694+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:01:25.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.880 seconds
+[2024-04-16T20:01:56.000+0000] {processor.py:161} INFO - Started process (PID=117) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:01:56.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:01:56.005+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:01:56.004+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:01:56.560+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:01:56.578+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:01:56.578+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:01:56.593+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:01:56.593+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:01:56.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.620 seconds
+[2024-04-16T20:02:26.925+0000] {processor.py:161} INFO - Started process (PID=124) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:02:26.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:02:26.931+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:02:26.930+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:02:27.423+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:02:27.436+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:02:27.436+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:02:27.446+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:02:27.446+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:02:27.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.538 seconds
+[2024-04-16T20:02:57.675+0000] {processor.py:161} INFO - Started process (PID=132) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:02:57.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:02:57.681+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:02:57.680+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:02:58.127+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:02:58.139+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:02:58.139+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:02:58.162+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:02:58.162+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:02:58.175+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.515 seconds
+[2024-04-16T20:03:28.476+0000] {processor.py:161} INFO - Started process (PID=140) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:03:28.479+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:03:28.482+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:03:28.482+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:03:28.866+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:03:28.880+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:03:28.880+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:03:28.892+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:03:28.891+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:03:28.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.437 seconds
+[2024-04-16T20:03:59.206+0000] {processor.py:161} INFO - Started process (PID=147) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:03:59.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:03:59.210+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:03:59.210+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:04:00.360+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:04:00.382+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:04:00.381+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:04:00.408+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:04:00.408+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:04:00.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 1.227 seconds
+[2024-04-16T20:04:30.934+0000] {processor.py:161} INFO - Started process (PID=155) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:04:30.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:04:30.940+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:04:30.939+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:04:31.632+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:04:31.650+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:04:31.649+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:04:31.661+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:04:31.661+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:04:31.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.756 seconds
+[2024-04-16T20:05:01.815+0000] {processor.py:161} INFO - Started process (PID=163) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:05:01.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:05:01.820+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:05:01.819+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:05:05.643+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:05:05.686+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:05:05.685+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:05:05.703+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:05:05.703+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:05:05.713+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 3.928 seconds
+[2024-04-16T20:05:36.114+0000] {processor.py:161} INFO - Started process (PID=176) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:05:36.117+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:05:36.120+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:05:36.119+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:05:36.746+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:05:36.775+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:05:36.775+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:05:36.788+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:05:36.788+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:05:36.796+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.697 seconds
+[2024-04-16T20:06:07.073+0000] {processor.py:161} INFO - Started process (PID=184) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:06:07.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:06:07.093+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:06:07.089+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:06:07.548+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:06:07.565+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:06:07.564+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:06:07.576+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:06:07.576+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:06:07.584+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.538 seconds
+[2024-04-16T20:06:38.299+0000] {processor.py:161} INFO - Started process (PID=192) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:06:38.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:06:38.306+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:06:38.306+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:06:38.965+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:06:39.142+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:06:39.138+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:06:39.222+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:06:39.221+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:06:39.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.986 seconds
+[2024-04-16T20:07:10.015+0000] {processor.py:161} INFO - Started process (PID=200) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:07:10.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:07:10.021+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:07:10.020+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:07:10.945+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:07:11.006+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:07:11.005+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:07:11.029+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:07:11.029+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:07:11.040+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 1.038 seconds
+[2024-04-16T20:07:41.453+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:07:41.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:07:41.458+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:07:41.457+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:07:42.107+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:07:42.126+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:07:42.126+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:07:42.142+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:07:42.142+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:07:42.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.710 seconds
+[2024-04-16T20:08:12.489+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:08:12.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:08:12.497+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:08:12.496+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:08:12.964+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:08:12.977+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:08:12.976+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:08:12.987+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:08:12.987+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:08:12.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.520 seconds
+[2024-04-16T20:08:43.117+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:08:43.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:08:43.134+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:08:43.131+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:08:43.723+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:08:43.739+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:08:43.738+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:08:43.748+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:08:43.748+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:08:43.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.675 seconds
+[2024-04-16T20:09:14.173+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:09:14.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:09:14.179+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:09:14.179+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:09:14.649+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:09:14.664+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:09:14.664+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:09:14.674+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:09:14.674+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:09:14.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.535 seconds
+[2024-04-16T20:09:44.887+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:09:44.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:09:44.895+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:09:44.894+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:09:45.317+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:09:45.333+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:09:45.333+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:09:45.343+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:09:45.343+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:09:45.351+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.508 seconds
+[2024-04-16T20:10:15.685+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:10:15.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:10:15.692+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:10:15.691+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:10:16.219+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:10:16.239+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:10:16.238+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:10:16.250+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:10:16.250+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:10:16.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.588 seconds
+[2024-04-16T20:10:46.414+0000] {processor.py:161} INFO - Started process (PID=254) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:10:46.416+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:10:46.420+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:10:46.419+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:10:46.879+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:10:46.898+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:10:46.897+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:10:46.909+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:10:46.909+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:10:46.917+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.515 seconds
+[2024-04-16T20:11:17.368+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:11:17.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:11:17.375+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:11:17.374+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:11:17.807+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:11:17.827+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:11:17.827+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:11:17.839+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:11:17.839+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:11:17.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.513 seconds
+[2024-04-16T20:11:48.383+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:11:48.392+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:11:48.397+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:11:48.396+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:11:48.849+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:11:48.870+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:11:48.870+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:11:48.883+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:11:48.882+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:11:48.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.551 seconds
+[2024-04-16T20:12:19.252+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:12:19.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:12:19.273+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:12:19.272+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:12:19.780+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:12:19.794+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:12:19.794+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:12:19.809+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:12:19.809+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:12:19.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.583 seconds
+[2024-04-16T20:12:49.984+0000] {processor.py:161} INFO - Started process (PID=286) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:12:49.989+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:12:49.996+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:12:49.995+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:12:50.463+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:12:50.479+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:12:50.479+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:12:50.491+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:12:50.491+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:12:50.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.543 seconds
+[2024-04-16T20:13:20.891+0000] {processor.py:161} INFO - Started process (PID=293) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:13:20.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:13:20.912+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:13:20.911+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:13:21.259+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:13:21.271+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:13:21.271+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:13:21.282+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:13:21.282+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:13:21.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.416 seconds
+[2024-04-16T20:13:51.638+0000] {processor.py:161} INFO - Started process (PID=301) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:13:51.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:13:51.646+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:13:51.645+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:13:52.065+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:13:52.084+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:13:52.083+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:13:52.095+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:13:52.095+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:13:52.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.491 seconds
+[2024-04-16T20:14:22.574+0000] {processor.py:161} INFO - Started process (PID=309) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:14:22.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:14:22.582+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:14:22.581+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:14:23.182+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:14:23.210+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:14:23.210+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:14:23.224+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:14:23.224+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:14:23.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.675 seconds
+[2024-04-16T20:14:54.529+0000] {processor.py:161} INFO - Started process (PID=317) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:14:54.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:14:54.553+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:14:54.552+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:14:56.280+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:14:56.339+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:14:56.338+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:14:56.355+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:14:56.355+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:14:56.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 1.905 seconds
+[2024-04-16T20:15:27.731+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:15:27.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:15:27.752+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:15:27.750+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:15:30.282+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:15:31.074+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:15:31.072+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:15:31.318+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:15:31.313+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:15:31.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 3.723 seconds
+[2024-04-16T20:16:01.854+0000] {processor.py:161} INFO - Started process (PID=333) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:16:01.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:16:01.862+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:16:01.862+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:16:02.465+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:16:02.495+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:16:02.495+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:16:02.506+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:16:02.505+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:16:02.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.685 seconds
+[2024-04-16T20:16:33.207+0000] {processor.py:161} INFO - Started process (PID=341) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:16:33.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:16:33.234+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:16:33.232+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:16:33.737+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:16:33.752+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:16:33.752+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:16:33.766+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:16:33.766+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:16:33.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.603 seconds
+[2024-04-16T20:17:04.128+0000] {processor.py:161} INFO - Started process (PID=349) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:17:04.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:17:04.136+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:17:04.135+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:17:04.590+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:17:04.604+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:17:04.604+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:17:04.613+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:17:04.613+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:17:04.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.508 seconds
+[2024-04-16T20:17:35.107+0000] {processor.py:161} INFO - Started process (PID=357) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:17:35.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:17:35.124+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:17:35.122+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:17:35.570+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:17:35.583+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:17:35.583+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:17:35.592+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:17:35.592+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:17:35.600+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.506 seconds
+[2024-04-16T20:18:06.007+0000] {processor.py:161} INFO - Started process (PID=365) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:18:06.009+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:18:06.013+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:18:06.012+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:18:06.551+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:18:06.582+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:18:06.582+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:18:06.596+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:18:06.596+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:18:06.604+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.608 seconds
+[2024-04-16T20:18:36.829+0000] {processor.py:161} INFO - Started process (PID=372) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:18:36.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:18:36.838+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:18:36.836+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:18:37.491+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:18:37.511+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:18:37.510+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:18:37.529+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:18:37.529+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:18:37.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.750 seconds
+[2024-04-16T20:19:07.915+0000] {processor.py:161} INFO - Started process (PID=380) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:19:07.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:19:07.923+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:19:07.922+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:19:08.353+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:19:08.365+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:19:08.365+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:19:08.374+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:19:08.374+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:19:08.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.478 seconds
+[2024-04-16T20:19:38.799+0000] {processor.py:161} INFO - Started process (PID=388) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:19:38.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:19:38.819+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:19:38.817+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:19:39.291+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:19:39.308+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:19:39.307+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:19:39.317+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:19:39.317+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:19:39.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.558 seconds
+[2024-04-16T20:20:09.799+0000] {processor.py:161} INFO - Started process (PID=396) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:20:09.802+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:20:09.807+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:20:09.806+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:20:10.275+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:20:10.307+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:20:10.307+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:20:10.318+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:20:10.317+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:20:10.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.568 seconds
+[2024-04-16T20:20:40.501+0000] {processor.py:161} INFO - Started process (PID=410) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:20:40.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:20:40.514+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:20:40.513+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:20:40.975+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:20:40.994+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:20:40.994+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:20:41.019+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:20:41.019+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:20:41.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.569 seconds
+[2024-04-16T20:21:11.378+0000] {processor.py:161} INFO - Started process (PID=417) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:21:11.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:21:11.385+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:21:11.384+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:21:11.862+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:21:11.876+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:21:11.875+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:21:11.886+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:21:11.886+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:21:11.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.528 seconds
+[2024-04-16T20:21:42.475+0000] {processor.py:161} INFO - Started process (PID=425) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:21:42.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:21:42.486+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:21:42.485+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:21:42.971+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:21:42.991+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:21:42.991+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:21:43.021+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:21:43.021+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:21:43.040+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.591 seconds
+[2024-04-16T20:22:13.394+0000] {processor.py:161} INFO - Started process (PID=433) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:22:13.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:22:13.400+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:22:13.399+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:22:14.380+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:22:14.533+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:22:14.532+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:22:14.590+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:22:14.590+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:22:14.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 1.237 seconds
+[2024-04-16T20:22:45.197+0000] {processor.py:161} INFO - Started process (PID=442) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:22:45.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:22:45.201+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:22:45.201+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:22:45.423+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:22:45.440+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:22:45.440+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:22:45.452+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:22:45.452+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:22:45.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.272 seconds
+[2024-04-16T20:23:15.607+0000] {processor.py:161} INFO - Started process (PID=450) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:23:15.609+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:23:15.613+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:23:15.612+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:23:15.874+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:23:15.897+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:23:15.897+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:23:15.925+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:23:15.925+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:23:15.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.344 seconds
+[2024-04-16T20:23:46.094+0000] {processor.py:161} INFO - Started process (PID=458) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:23:46.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:23:46.101+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:23:46.100+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:23:46.350+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:23:46.370+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:23:46.369+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:23:46.382+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:23:46.382+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:23:46.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.311 seconds
+[2024-04-16T20:24:16.610+0000] {processor.py:161} INFO - Started process (PID=466) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:24:16.612+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:24:16.616+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:24:16.616+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:24:16.860+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:24:16.878+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:24:16.877+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:24:16.891+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:24:16.891+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:24:16.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.304 seconds
+[2024-04-16T20:24:47.032+0000] {processor.py:161} INFO - Started process (PID=474) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:24:47.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:24:47.037+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:24:47.037+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:24:47.261+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:24:47.301+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:24:47.300+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:24:47.314+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:24:47.314+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:24:47.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.324 seconds
+[2024-04-16T20:25:17.555+0000] {processor.py:161} INFO - Started process (PID=482) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:25:17.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:25:17.570+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:25:17.568+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:25:17.823+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:25:17.842+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:25:17.841+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:25:17.854+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:25:17.854+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:25:17.864+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.323 seconds
+[2024-04-16T20:25:47.950+0000] {processor.py:161} INFO - Started process (PID=490) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:25:47.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:25:47.955+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:25:47.955+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:25:48.201+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:25:48.234+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:25:48.234+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:25:48.247+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:25:48.247+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:25:48.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.319 seconds
+[2024-04-16T20:26:18.595+0000] {processor.py:161} INFO - Started process (PID=498) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:26:18.596+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:26:18.600+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:26:18.599+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:26:18.825+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:26:18.842+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:26:18.842+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:26:18.854+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:26:18.854+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:26:18.869+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.283 seconds
+[2024-04-16T20:26:48.981+0000] {processor.py:161} INFO - Started process (PID=506) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:26:48.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:26:48.986+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:26:48.985+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:26:49.263+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:26:49.281+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:26:49.280+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:26:49.314+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:26:49.314+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:26:49.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.353 seconds
+[2024-04-16T20:27:19.538+0000] {processor.py:161} INFO - Started process (PID=514) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:27:19.539+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:27:19.542+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:27:19.541+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:27:19.780+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:27:19.796+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:27:19.796+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:27:19.809+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:27:19.809+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:27:19.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.287 seconds
+[2024-04-16T20:27:50.126+0000] {processor.py:161} INFO - Started process (PID=522) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:27:50.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:27:50.132+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:27:50.129+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:27:50.363+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:27:50.395+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:27:50.394+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:27:50.417+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:27:50.417+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:27:50.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.307 seconds
+[2024-04-16T20:28:20.695+0000] {processor.py:161} INFO - Started process (PID=530) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:28:20.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:28:20.725+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:28:20.724+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:28:20.972+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:28:20.992+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:28:20.991+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:28:21.006+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:28:21.006+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:28:21.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.359 seconds
+[2024-04-16T20:31:56.173+0000] {processor.py:161} INFO - Started process (PID=31) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:31:56.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:31:56.180+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:31:56.179+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:32:00.725+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:32:01.054+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:32:01.052+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:32:01.087+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:32:01.086+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:32:01.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 4.973 seconds
+[2024-04-16T20:32:31.718+0000] {processor.py:161} INFO - Started process (PID=39) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:32:31.729+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:32:31.750+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:32:31.746+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:32:32.629+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:32:32.676+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:32:32.675+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:32:32.691+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:32:32.691+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:32:32.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 1.005 seconds
+[2024-04-16T20:33:03.392+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:33:03.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_api_dag.py for tasks to queue
+[2024-04-16T20:33:03.399+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:33:03.399+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:33:03.961+0000] {processor.py:840} INFO - DAG(s) 'upload_verdemar_to_s3' retrieved from /opt/airflow/dags/verdemar_api_dag.py
+[2024-04-16T20:33:03.982+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:33:03.982+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:33:04.003+0000] {logging_mixin.py:188} INFO - [2024-04-16T20:33:04.003+0000] {dag.py:3954} INFO - Setting next_dagrun for upload_verdemar_to_s3 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-16T20:33:04.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_api_dag.py took 0.643 seconds

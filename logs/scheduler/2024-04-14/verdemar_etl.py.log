@@ -1,0 +1,512 @@
+[2024-04-14T04:18:10.237+0000] {processor.py:161} INFO - Started process (PID=32) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:18:10.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:18:10.244+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:18:10.244+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:18:10.254+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:18:10.251+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:18:10.255+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:18:10.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.054 seconds
+[2024-04-14T04:18:40.400+0000] {processor.py:161} INFO - Started process (PID=93) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:18:40.402+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:18:40.406+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:18:40.405+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:18:40.413+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:18:40.411+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:18:40.413+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:18:40.438+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.050 seconds
+[2024-04-14T04:19:10.558+0000] {processor.py:161} INFO - Started process (PID=154) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:19:10.560+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:19:10.563+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:19:10.562+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:19:10.567+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:19:10.566+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:19:10.567+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:19:10.602+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.053 seconds
+[2024-04-14T04:19:40.727+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:19:40.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:19:40.733+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:19:40.732+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:19:40.744+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:19:40.741+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:19:40.745+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:19:40.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.113 seconds
+[2024-04-14T04:20:11.081+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:20:11.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:20:11.088+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:20:11.087+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:20:11.095+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:20:11.093+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:20:11.095+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:20:11.116+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.067 seconds
+[2024-04-14T04:20:41.281+0000] {processor.py:161} INFO - Started process (PID=340) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:20:41.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:20:41.287+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:20:41.287+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:20:41.294+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:20:41.293+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:20:41.294+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:20:41.322+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.055 seconds
+[2024-04-14T04:21:11.658+0000] {processor.py:161} INFO - Started process (PID=402) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:21:11.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:21:11.666+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:21:11.666+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:21:11.672+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:21:11.671+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:21:11.672+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:21:11.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.044 seconds
+[2024-04-14T04:21:41.872+0000] {processor.py:161} INFO - Started process (PID=464) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:21:41.875+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:21:41.878+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:21:41.878+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:21:41.885+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:21:41.884+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:21:41.886+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:21:41.901+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.040 seconds
+[2024-04-14T04:22:11.963+0000] {processor.py:161} INFO - Started process (PID=526) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:22:11.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:22:11.967+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:22:11.967+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:22:11.974+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:22:11.973+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:22:11.975+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:22:11.999+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.053 seconds
+[2024-04-14T04:22:42.753+0000] {processor.py:161} INFO - Started process (PID=588) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:22:42.755+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:22:42.786+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:22:42.783+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:22:42.815+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:22:42.811+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:22:42.817+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:22:42.948+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.203 seconds
+[2024-04-14T04:23:13.179+0000] {processor.py:161} INFO - Started process (PID=650) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:23:13.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:23:13.189+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:23:13.188+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:23:13.197+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:23:13.195+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:23:13.197+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:23:13.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.108 seconds
+[2024-04-14T04:23:43.700+0000] {processor.py:161} INFO - Started process (PID=712) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:23:43.701+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:23:43.704+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:23:43.704+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:23:43.710+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:23:43.709+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:23:43.710+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:23:43.754+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.064 seconds
+[2024-04-14T04:24:13.980+0000] {processor.py:161} INFO - Started process (PID=774) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:24:13.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:24:13.986+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:24:13.985+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:24:13.992+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:24:13.991+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:24:13.993+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:24:14.025+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.062 seconds
+[2024-04-14T04:24:44.560+0000] {processor.py:161} INFO - Started process (PID=836) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:24:44.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:24:44.568+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:24:44.566+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:24:44.580+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:24:44.578+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:24:44.581+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:24:44.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.084 seconds
+[2024-04-14T04:25:15.061+0000] {processor.py:161} INFO - Started process (PID=898) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:25:15.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:25:15.076+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:25:15.066+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:25:15.088+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:25:15.087+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:25:15.089+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:25:15.119+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.068 seconds
+[2024-04-14T04:25:45.934+0000] {processor.py:161} INFO - Started process (PID=960) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:25:45.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:25:45.938+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:25:45.938+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:25:45.943+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:25:45.942+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:25:45.944+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:25:45.990+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.090 seconds
+[2024-04-14T04:26:16.262+0000] {processor.py:161} INFO - Started process (PID=1022) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:26:16.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:26:16.267+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:26:16.266+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:26:16.273+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:26:16.271+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:26:16.273+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:26:16.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.067 seconds
+[2024-04-14T04:26:46.831+0000] {processor.py:161} INFO - Started process (PID=1084) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:26:46.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:26:46.837+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:26:46.837+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:26:46.843+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:26:46.842+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:26:46.844+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:26:46.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.081 seconds
+[2024-04-14T04:27:17.044+0000] {processor.py:161} INFO - Started process (PID=1146) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:27:17.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:27:17.055+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:27:17.054+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:27:17.061+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:27:17.060+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:27:17.062+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:27:17.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.067 seconds
+[2024-04-14T04:27:47.697+0000] {processor.py:161} INFO - Started process (PID=1208) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:27:47.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:27:47.704+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:27:47.703+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:27:47.710+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:27:47.709+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:27:47.711+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:27:47.742+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.068 seconds
+[2024-04-14T04:28:18.272+0000] {processor.py:161} INFO - Started process (PID=1272) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:28:18.276+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:28:18.278+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:28:18.278+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:28:18.285+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:28:18.284+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:28:18.286+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:28:18.332+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.070 seconds
+[2024-04-14T04:28:48.578+0000] {processor.py:161} INFO - Started process (PID=1334) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:28:48.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:28:48.585+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:28:48.585+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:28:48.593+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:28:48.591+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:28:48.593+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:28:48.627+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.063 seconds
+[2024-04-14T04:29:19.328+0000] {processor.py:161} INFO - Started process (PID=1396) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:29:19.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:29:19.331+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:29:19.331+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:29:19.337+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:29:19.336+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:29:19.338+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:29:19.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.035 seconds
+[2024-04-14T04:29:49.518+0000] {processor.py:161} INFO - Started process (PID=1457) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:29:49.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:29:49.521+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:29:49.521+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:29:49.526+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:29:49.525+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:29:49.527+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:29:49.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.040 seconds
+[2024-04-14T04:30:19.777+0000] {processor.py:161} INFO - Started process (PID=1519) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:30:19.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:30:19.781+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:30:19.781+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:30:19.788+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:30:19.787+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:30:19.789+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:30:19.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.042 seconds
+[2024-04-14T04:30:50.213+0000] {processor.py:161} INFO - Started process (PID=1581) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:30:50.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:30:50.217+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:30:50.217+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:30:50.222+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:30:50.221+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:30:50.222+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:30:50.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.035 seconds
+[2024-04-14T04:31:20.781+0000] {processor.py:161} INFO - Started process (PID=1643) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:31:20.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:31:20.785+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:31:20.785+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:31:20.793+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:31:20.792+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:31:20.794+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:31:20.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.043 seconds
+[2024-04-14T04:31:51.137+0000] {processor.py:161} INFO - Started process (PID=1705) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:31:51.139+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:31:51.142+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:31:51.141+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:31:51.150+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:31:51.149+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:31:51.151+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:31:51.169+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.046 seconds
+[2024-04-14T04:32:21.511+0000] {processor.py:161} INFO - Started process (PID=1767) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:32:21.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:32:21.514+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:32:21.514+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:32:21.519+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:32:21.518+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:32:21.520+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:32:21.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.036 seconds
+[2024-04-14T04:32:51.925+0000] {processor.py:161} INFO - Started process (PID=1829) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:32:51.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:32:51.927+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:32:51.926+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:32:51.934+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:32:51.931+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:32:51.934+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:32:51.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.049 seconds
+[2024-04-14T04:33:22.293+0000] {processor.py:161} INFO - Started process (PID=1891) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:33:22.295+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:33:22.297+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:33:22.296+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:33:22.305+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:33:22.304+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:33:22.306+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:33:22.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.040 seconds
+[2024-04-14T04:33:52.839+0000] {processor.py:161} INFO - Started process (PID=1952) to work on /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:33:52.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/verdemar_etl.py for tasks to queue
+[2024-04-14T04:33:52.843+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:33:52.843+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:33:52.850+0000] {logging_mixin.py:188} INFO - [2024-04-14T04:33:52.849+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/verdemar_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/verdemar_etl.py", line 14
+    input_file = File(
+IndentationError: unexpected indent
+[2024-04-14T04:33:52.851+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/verdemar_etl.py
+[2024-04-14T04:33:52.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/verdemar_etl.py took 0.042 seconds

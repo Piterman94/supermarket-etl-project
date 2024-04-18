@@ -1,0 +1,14 @@
+[2024-04-13T06:11:06.402+0000] {processor.py:161} INFO - Started process (PID=4717) to work on /opt/airflow/dags/test_dag.py
+[2024-04-13T06:11:06.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-04-13T06:11:06.405+0000] {logging_mixin.py:188} INFO - [2024-04-13T06:11:06.405+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-04-13T06:11:07.084+0000] {logging_mixin.py:188} INFO - [2024-04-13T06:11:07.082+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/test_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test_dag.py", line 7, in <module>
+    from etl_verdemar import run_etl_process
+ModuleNotFoundError: No module named 'etl_verdemar'
+[2024-04-13T06:11:07.084+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test_dag.py
+[2024-04-13T06:11:07.119+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.726 seconds

@@ -1,0 +1,43 @@
+[2024-04-14T19:12:34.059+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-14T19:12:34.067+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: upload_csv_to_s3.generate_and_upload_csv manual__2024-04-14T19:12:29.224496+00:00 [queued]>
+[2024-04-14T19:12:34.070+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: upload_csv_to_s3.generate_and_upload_csv manual__2024-04-14T19:12:29.224496+00:00 [queued]>
+[2024-04-14T19:12:34.071+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-04-14T19:12:34.076+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): generate_and_upload_csv> on 2024-04-14 19:12:29.224496+00:00
+[2024-04-14T19:12:34.082+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=2705) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-04-14T19:12:34.083+0000] {standard_task_runner.py:63} INFO - Started process 2707 to run task
+[2024-04-14T19:12:34.084+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'upload_csv_to_s3', 'generate_and_upload_csv', 'manual__2024-04-14T19:12:29.224496+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmpo55nng2j']
+[2024-04-14T19:12:34.084+0000] {standard_task_runner.py:91} INFO - Job 26: Subtask generate_and_upload_csv
+[2024-04-14T19:12:34.106+0000] {task_command.py:426} INFO - Running <TaskInstance: upload_csv_to_s3.generate_and_upload_csv manual__2024-04-14T19:12:29.224496+00:00 [running]> on host 514aa00dce91
+[2024-04-14T19:12:34.193+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='upload_csv_to_s3' AIRFLOW_CTX_TASK_ID='generate_and_upload_csv' AIRFLOW_CTX_EXECUTION_DATE='2024-04-14T19:12:29.224496+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-14T19:12:29.224496+00:00'
+[2024-04-14T19:12:34.196+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-14T19:12:34.950+0000] {logging_mixin.py:188} INFO - []
+[2024-04-14T19:12:34.952+0000] {logging_mixin.py:188} INFO - Processing section: 16
+[2024-04-14T19:12:37.038+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-14T19:12:37.040+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/test_dag.py", line 83, in run_etl_process
+    hook.put_object(Bucket=bucket_name, Key=file_key, Body=csv_buffer.getvalue())
+    ^^^^^^^^^^^^^^^
+AttributeError: 'AwsBaseHook' object has no attribute 'put_object'
+[2024-04-14T19:12:37.053+0000] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=upload_csv_to_s3, task_id=generate_and_upload_csv, execution_date=20240414T191229, start_date=20240414T191234, end_date=20240414T191237
+[2024-04-14T19:12:37.071+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 26 for task generate_and_upload_csv ('AwsBaseHook' object has no attribute 'put_object'; 2707)
+[2024-04-14T19:12:37.114+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-14T19:12:37.132+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-14T19:12:37.133+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
